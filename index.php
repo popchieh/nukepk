@@ -21,30 +21,7 @@
 
 <body>
 
-
-  <div class="container-fluid">
-  <div class="row-fluid">
-    <div class="span6">
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-    </div>
-    <div class="span6">
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-    </div>
-  </div>
-</div>
-
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span6">
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        </div>
-        <div class="span6">
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      </div><!--/row-->
-    </div>
-  </div>
-
-
+<hr>
 
     <div class="container">
 
@@ -77,19 +54,19 @@
       <div class="row-fluid">
         <div class="span6">
           <div class="well">
-            <?php include_once("url_fetch.php"); ?>
+            <?php // include_once("url_fetch.php"); ?>
             <p>
 <?php 
 
-$url = 'http://www.inside.com.tw/2013/03/14/google-is-gonna-shut-down-google-reader-on-1st-july';
+// $url = 'http://www.inside.com.tw/2013/03/14/google-is-gonna-shut-down-google-reader-on-1st-july';
 
-$options = array(
-  'return_info' => true,
-  'method'    => 'post'
-);
+// $options = array(
+//   'return_info' => true,
+//   'method'    => 'post'
+// );
 
-$contents = load($url, $options);
-print_r($contents);
+// $contents = load($url, $options);
+// print_r($contents);
 ?>
             </p>
           </div><!--/.well -->
